@@ -1,0 +1,21 @@
+{
+  "name": "portfoloi",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "portfolio"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0"
+  }
+}

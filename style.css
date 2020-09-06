@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: "Titillium Web",sans-serif;
+    color: #DBE8D4;
+    background-color: #222733;
+}
+.container{
+   width: 100%;
+   margin: auto;
+}
+
+.navigation{
+   display:flex;
+   justify-content:space-around;
+   align-items: center;
+   width: 100%;
+   height:60px;
+   background-color: #525e65;
+}
+.navigation ul li a, .logo a {
+    text-decoration:none;
+    color:#DBE8D4;
+}
+.navigation ul li a:hover,  .logo a:hover{
+  color:#73CCA8;
+  cursor: pointer;
+  border-bottom: 3px solid #73CCA8;
+    padding: 10px;
+}
+li {
+  list-style: none;
+  display: inline;
+  margin-left: 30px;
+}
+.showcaseHeader{
+    position: relative;
+    padding: 2em 0;
+
+    height: min-content;
+    text-align: center;
+}
+h1, h2{
+    font-family: "Josefin Sans",sans-serif;
+    font-style: normal;
+    letter-spacing: 0.125em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.showcaseHeader h1{
+    font-weight: 100;
+    letter-spacing: 2rem;
+    font-size: 50px;
+    line-height: 1;
+}
+.showcaseHeader h2{
+    margin: 1em 0 0;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.display-picture{
+   display:flex;
+   justify-content: center;
+}
+
+#photo img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.introduction, .home-about{
+    width: 28rem;
+    margin:auto;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.introduction p, .home-intro p{
+  margin: 2rem 0;
+}
+
+.home-header h1{
+    font-weight: 200;
+    letter-spacing: 1rem;
+    font-size: 25px;
+    margin: 10rem 0 3rem 0;
+}
+.underline{
+    margin: auto;
+    width:70%;
+    border-bottom: 3px solid #525e65;
+}
+.home-intro{
+    margin-bottom: 8rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+    color: white;
+}
+.footer-logo {
+    margin: 3rem 0;
+}
+i{
+    background-color: #DBE8D4;
+    color: #222733;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+i:hover{
+    background:#73CCA8;
+}
+
+
+
+

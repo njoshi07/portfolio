@@ -132,7 +132,7 @@ i:hover{
     background:#73CCA8;
 }
 
-@media screen and (max-width: 768px) and (min-width: 400px){
+@media screen and (max-width: 768px), screen and (min-width: 300px){
     body{
         overflow: hidden;
     }

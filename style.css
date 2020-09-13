@@ -132,9 +132,13 @@ i:hover{
     background:#73CCA8;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    body{
+@media (min-width : 320px) {
+   html, body{
         overflow-x: hidden;
+       width: 100%;
+    }
+    .burger, .social-logo, .copyright{
+        display: block;
     }
 
     .nav-links {
@@ -173,9 +177,7 @@ i:hover{
         font-size: 1rem;
     }
 
-  .burger, .social-logo, .copyright{
-      display: block;
-  }
+
 
     .copyright, .social-logo {
         margin: 60px;

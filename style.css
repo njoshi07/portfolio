@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    overflow: auto;
 }
 body{
     font-family: montserrat;
@@ -137,14 +136,13 @@ i:hover{
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-   html, body{
-        overflow-x: hidden;
-       width: 100%;
+   .container {
+       position: relative;
+       overflow-x: hidden;
     }
     .burger, .social-logo, .copyright{
         display: block;
     }
-
     .nav-links {
        position: absolute;
        right:0px;

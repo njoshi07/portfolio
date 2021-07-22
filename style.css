@@ -135,6 +135,21 @@ i:hover{
     background:#73CCA8;
 }
 
+.showcaseHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+}
+.showcaseIntro{
+   width: 75%;
+   border: 1px solid #222733;
+}
+.weather{
+   width: 25%;
+   border: 1px solid #222733;
+   color:#000000;
+}
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
    .container {
        position: relative;

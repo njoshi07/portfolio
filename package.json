@@ -16,6 +16,6 @@
   "author": "Me",
   "license": "ISC",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.14.0"
+    "@fortawesome/fontawesome-free": "^5.15.1"
   }
 }
